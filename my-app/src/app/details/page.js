@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 
 
-const detail = () => {
+const Detail = () => {
     const [data, setData] = useState({});
     const { user } = UserAuth();
     const [dbData, setDbData] = useState([]);
@@ -140,4 +140,4 @@ const detail = () => {
 
 }
 
-export default detail
+export default Detail
